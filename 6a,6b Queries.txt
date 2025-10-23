@@ -1,0 +1,35 @@
+"""""""  For MYSQL   """""""""""""""''
+
+6A:
+
+CREATE DATABASE examDB;
+USE examDB;
+
+CREATE TABLE examTab (
+  answer VARCHAR(100)
+);
+
+INSERT INTO examTab (answer) VALUES
+('Operating System'),
+('Personal Computer'),
+('Dennis Ritchie');
+
+
+6B:
+
+CREATE TABLE markTab (
+  rno VARCHAR(20) PRIMARY KEY,
+  name VARCHAR(100),
+  npm INT,
+  ooad INT,
+  cns INT,
+  es INT,
+  wt INT,
+  sre INT
+);
+
+
+NOTE : 
+
+* Add " mysql-connector-j-9.5.0.jar " file in (lib folder)
+* Use same Database for 6A and 6B named as examDB 
