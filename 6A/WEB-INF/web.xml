@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Web Application Name -->
+    <display-name>Online Examination</display-name>
+
+    <!-- Welcome Page -->
+    <welcome-file-list>
+        <welcome-file>ExamClient.html</welcome-file>
+    </welcome-file-list>
+
+    <!-- Exam Server JSP Mapping -->
+    <servlet>
+        <servlet-name>ExamServer</servlet-name>
+        <jsp-file>/ExamServer.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExamServer</servlet-name>
+        <url-pattern>/ExamServer.jsp</url-pattern>
+    </servlet-mapping>
+
+</web-app>

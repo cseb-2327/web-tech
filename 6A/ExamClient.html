@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Exam Client</title>
+  <style type="text/css">
+    body {
+      background-color: black;
+      font-family: courier;
+      color: blue;
+      margin: 50px;
+    }
+    h2, h3 {
+      text-align: center;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: blue;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    input[type="submit"]:hover {
+      background-color: darkblue;
+    }
+    hr {
+      border: 1px solid blue;
+      width: 80%;
+    }
+    .question {
+      margin-bottom: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>ONLINE EXAMINATION</h2>
+  <h3>Answer the following questions (5 marks for each correct answer)</h3>
+  <hr/>
+
+  <form name="examForm" method="post" action="ExamServer.jsp">
+
+    <div class="question">
+      <b>1. All computers must have</b><br/>
+      <input type="radio" name="ans1" value="Operating System"> Operating System<br/>
+      <input type="radio" name="ans1" value="Application Software"> Application Software<br/>
+      <input type="radio" name="ans1" value="CD Drive"> CD Drive<br/>
+      <input type="radio" name="ans1" value="Microsoft Word"> Microsoft Word<br/>
+    </div>
+
+    <div class="question">
+      <b>2. The term PC means</b><br/>
+      <input type="radio" name="ans2" value="Private Computer"> Private Computer<br/>
+      <input type="radio" name="ans2" value="Professional Computer"> Professional Computer<br/>
+      <input type="radio" name="ans2" value="Personal Computer"> Personal Computer<br/>
+      <input type="radio" name="ans2" value="Personal Calculator"> Personal Calculator<br/>
+    </div>
+
+    <div class="question">
+      <b>3. C was developed by</b><br/>
+      <input type="radio" name="ans3" value="Dennis Ritchie"> Dennis Ritchie<br/>
+      <input type="radio" name="ans3" value="Stroustrup"> Stroustrup<br/>
+      <input type="radio" name="ans3" value="David Ritchie"> David Ritchie<br/>
+      <input type="radio" name="ans3" value="Charles Babbage"> Charles Babbage<br/>
+    </div>
+
+    <center>
+      <input type="submit" value="Check Your Result"/>
+    </center>
+  </form>
+</body>
+</html>
