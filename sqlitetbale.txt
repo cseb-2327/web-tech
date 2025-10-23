@@ -1,0 +1,9 @@
+CREATE TABLE examTab (
+    question TEXT,
+    answer TEXT
+);
+
+
+INSERT INTO examTab (question, answer) VALUES ('What is the OS of a computer?', 'Operating System');
+INSERT INTO examTab (question, answer) VALUES ('What does PC stand for?', 'Personal Computer');
+INSERT INTO examTab (question, answer) VALUES ('Who developed C?', 'Dennis Ritchie');
