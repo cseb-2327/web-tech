@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <display-name>ThreeTierExamApp</display-name>
+
+    <!-- Welcome file (the first page when app is opened) -->
+    <welcome-file-list>
+        <welcome-file>stud.html</welcome-file>
+    </welcome-file-list>
+
+    <!-- Optional: JSP servlet configuration (Tomcat handles this automatically)
+    <servlet>
+        <servlet-name>jsp</servlet-name>
+        <jsp-file>/marklist.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>jsp</servlet-name>
+        <url-pattern>/marklist.jsp</url-pattern>
+    </servlet-mapping>
+    -->
+
+</web-app>
