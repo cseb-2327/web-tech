@@ -1,0 +1,49 @@
+Open Mongo Shell
+
+Open Command Prompt (or Terminal)
+
+Type:
+
+mongo
+
+6A 
+
+
+
+use examDB
+
+db.examTab.insertMany([
+  { qno: 1, answer: "Operating System" },
+  { qno: 2, answer: "Personal Computer" },
+  { qno: 3, answer: "Dennis Ritchie" }
+]);
+
+db.examTab.find().pretty()
+
+
+6B: 
+
+use examDB
+
+db.markTab.insertMany([
+  {
+    rno: "101",
+    name: "Alice",
+    npm: 85,
+    ooad: 90,
+    cns: 80,
+    es: 75,
+    wt: 88,
+    sre: 92
+  },
+  {
+    rno: "102",
+    name: "Bob",
+    npm: 78,
+    ooad: 82,
+    cns: 85,
+    es: 80,
+    wt: 75,
+    sre: 88
+  }
+])
