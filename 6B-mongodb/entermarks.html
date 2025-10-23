@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enter Student Marks</title>
+  <style>
+    body { color: blue; font-family: courier; text-align: center; }
+    input { margin: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Enter Student Marks</h2><hr/>
+  <form method="POST" action="storemarks.jsp">
+    Register No: <input type="text" name="rno" required><br/>
+    Name: <input type="text" name="name" required><br/>
+    Network Programming and Management: <input type="number" name="npm" required><br/>
+    Object Oriented Analysis and Design: <input type="number" name="ooad" required><br/>
+    Cryptography and Network Security: <input type="number" name="cns" required><br/>
+    Embedded Systems: <input type="number" name="es" required><br/>
+    Web Technology: <input type="number" name="wt" required><br/>
+    Software Requirement and Engineering: <input type="number" name="sre" required><br/><br/>
+    <input type="submit" value="Save Marks">
+  </form>
+</body>
+</html>
